@@ -1,5 +1,4 @@
 ## WhatsApp - 2024.11.07
-
 host,g.whatsapp.net
 host,dit.whatsapp.net
 host,static.whatsapp.net
@@ -51,7 +50,7 @@ host-suffix,whatsapp.net
 host-suffix,whatsapp.org
 host-suffix,whatsapp.tv
 host-suffix,whatsappbrand.com
-host-keyword
+host-keyword,whatsapp
 ip-cidr, 158.85.224.160/27
 ip-cidr, 158.85.46.128/27
 ip-cidr, 158.85.5.192/27
