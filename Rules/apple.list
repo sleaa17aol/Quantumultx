@@ -1,0 +1,78 @@
+HOST-WILDCARD,apple.*
+HOST-WILDCARD,apple.com.*
+HOST-WILDCARD,appleworldwidedeveloper.*.net
+HOST-WILDCARD,imac.*
+HOST-WILDCARD,iphone.*
+HOST-WILDCARD,ipod.*
+HOST-WILDCARD,macbook.*
+USER-AGENT,*com.apple.mobileme.fmip1
+USER-AGENT,*WeatherFoundation*
+HOST,weather-data.apple.com
+USER-AGENT,com.apple.Maps
+USER-AGENT,*com.apple.Maps?
+USER-AGENT,Maps*
+HOST,gs-loc-cn.apple.com
+USER-AGENT,FindMyFriends*
+USER-AGENT,FindMyiPhone*
+USER-AGENT,*FindMyiPhone?
+USER-AGENT,FMDClient*
+USER-AGENT,FMFD*
+USER-AGENT,fmflocatord*
+USER-AGENT,geod*
+USER-AGENT,locationd*
+IP-CIDR,17.0.0.0/8
+IP-CIDR,63.92.224.0/19
+IP-CIDR,65.199.22.0/23
+IP-CIDR,139.178.128.0/18
+IP-CIDR,144.178.0.0/19
+IP-CIDR,144.178.36.0/22
+IP-CIDR,144.178.48.0/20
+IP-CIDR,192.35.50.0/24
+IP-CIDR,198.183.17.0/24
+IP-CIDR,205.180.175.0/24
+HOST-SUFFIX,apple.com
+HOST-SUFFIX,apple.co
+HOST-SUFFIX,apple.cn
+HOST-SUFFIX,apple.com.cn
+HOST-SUFFIX,cdn-apple.com
+HOST-SUFFIX,cdn-apple-mapkit.com
+HOST-SUFFIX,apple-mapkit.com
+HOST-SUFFIX,apple-cloudkit.com
+HOST-SUFFIX,aaplimg.com
+HOST-SUFFIX,me.com
+HOST-SUFFIX,mzstatic.com
+HOST-SUFFIX,akadns.net
+USER-AGENT,*Music?
+HOST-KEYWORD,smp-device
+USER-AGENT,passd*
+USER-AGENT,Wallet*
+HOST-SUFFIX,ls.apple.com.edgesuite.net
+HOST-SUFFIX,dispatcher.is.autonavi.com
+HOST-SUFFIX,apple.news
+## Apple Global CDN
+## iOS App Store
+HOST,iosapps.itunes.apple.com
+USER-AGENT,com.apple.appstored*
+## Mac App Store
+HOST,osxapps.itunes.apple.com
+HOST,oscdn.apple.com
+# PROCESS-NAME,storedownloadd
+## Update
+HOST,supportdownload.apple.com
+## Update
+HOST,appldnld.apple.com
+## Update
+HOST,swcdn.apple.com
+HOST,apptrailers.itunes.apple.com
+HOST,updates-http.cdn-apple.com
+HOST,updates.cdn-apple.com
+## App Store & iTunes Images
+HOST-SUFFIX,mzstatic.com
+## Apple Music Streaming
+HOST,aod.itunes.apple.com
+HOST,mvod.itunes.apple.com
+HOST,streamingaudio.itunes.apple.com
+## Other
+HOST,download.developer.apple.com
+HOST,downloaddispatch.itunes.apple.com
+HOST,app-site-association.cdn-apple.com
