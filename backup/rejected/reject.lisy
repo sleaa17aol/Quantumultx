@@ -1,0 +1,33 @@
+https://raw.githubusercontent.com/yaoyaole0112/surge/8737818231b7f8a6d5f07262e42f55e049e8d4c4/rules/MyBlockAds.list, tag=🚫, force-policy=reject, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+https://raw.githubusercontent.com/yaoyaole0112/surge/8737818231b7f8a6d5f07262e42f55e049e8d4c4/rules/BanProgramAD.list, force-policy=reject, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo_surge.list, force-policy=reject, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/sleaa17aol/Quantumultx/refs/heads/main/Rules/rejected.list, force-policy=reject, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/Coldvvater/Mononoke/8511100f7b515ddc52d3643ad2b2d71b5704f54e/Stash/Rules/Reject.list#L92, force-policy=reject, update-interval=172800, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/thNylHx/Tools/main/Ruleset/Surge/Block/Ads_ml.list, force-policy=reject, update-interval=172800, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/Chromo-lib/netfilter/cc1ece66c0ceaf6ab662b259e9c2c538b22c8adc/_filters/firstParty_rd/1.txt#L2310, tag=🚫, force-policy=reject, update-interval=172800, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/thNylHx/Tools/9d5870041ac77449d942cbdce5a5523b40496581/Ruleset/Surge/Block/Ads_ml.list#L378, tag=Ads_ml.list, force-policy=reject, update-interval=172800, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/thNylHx/Tools/9d5870041ac77449d942cbdce5a5523b40496581/Ruleset/Surge/Block/Ads_BanProgramAD.list#L685, tag=Ads_BanProgramAD, force-policy=reject, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=false
+https://raw.githubusercontent.com/tkzc11/Surge/main/RuCu6_BlockAds.list, tag=175, force-policy=reject, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+https://raw.githubusercontent.com/gemnioo/MixedCFWRules/90529f50ab218a67eb026a27def725ae66839f26/QuantumultX/AdBlock.list, force-policy=reject, update-interval=172800, opt-parser=true, enabled=false
+https://github.com/lonely0811/olsd/raw/07ff17697ee290e6e1d75d634560fe1b6311666a/surge/adblocksg.conf, force-policy=reject, update-interval=-1, opt-parser=true, inserted-resource=true, enabled=false
+https://raw.githubusercontent.com/cbuijs/accomplist/22b9260fe1b032219b8a7b067f815d198bd647b6/chris/tds.list#L39, force-policy=reject, update-interval=-1, opt-parser=true, inserted-resource=true, enabled=false
+https://github.com/xOS/Config/raw/aa03e2a4197c018481b3bb07be4b53c566cae33d/RuleSet/Advertising.list, force-policy=reject, update-interval=172800, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/NobyDa/ND-AD/master/Surge/AD_Block.txt, force-policy=reject, update-interval=-1, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/mengdie101/Myactions/3a45a0bbc103a99461416d97b9d5ed2e46400740/web/AdRule1.list#L67, force-policy=reject, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=false
+https://raw.githubusercontent.com/Xhy333/QuantumultX/main/Rule/Ads_ConnersHua.list, force-policy=reject, update-interval=172800, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/king1x32/Kingsman/144969c46599347192314391b9b1be6e654749c3/QuantumultX/quantumult-rulev2.conf, force-policy=reject, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=false
+https://raw.githubusercontent.com/gemnioo/MixedCFWRules/main/QuantumultX/AdBlock.list, force-policy=reject, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=false
+https://raw.githubusercontent.com/king1x32/Kingsman/refs/heads/main/Kings-shadow-BlockAllAds.conf, force-policy=reject, update-interval=172800, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/kx5310/quantumultx/9ce5836a31e3550ddc770e139ce2131e964e11c2/AdReject.list#L37, force-policy=reject, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=false
+https://github.com/Cardio1/Clash/raw/3c175a70f7d123e2a9408a6c1f07d73abe16aba7/Rule/Ad.list, tag=Ads_Dlerio.🚫, force-policy=reject, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=false
+https://raw.githubusercontent.com/sultan1sa/Surge/refs/heads/master/Source/domainset/reject_sukka.conf, tag=reject_sukka🚫⭕️, force-policy=reject, update-interval=172800, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/yjlsx/quantumult-x/40152af92115d85bfd343df20b5e4640521bc620/list/Reject.list#L18, force-policy=reject, update-interval=172800, opt-parser=true, enabled=false
+https://github.com/unknowntokyo/surge-list/raw/refs/heads/master/reject.list, force-policy=reject, update-interval=172800, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/native.apple.txt, force-policy=reject, update-interval=172800, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/scomper/surge-list/7b8e7f2b6a04f526198e0a4ecf7a1366b8124a0c/domain-set/adaway.txt#L943, tag=adaway🕊️🚫, force-policy=reject, update-interval=172800, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/scomper/surge-list/refs/heads/master/domain-set/tracking-protection-filter.txt, tag=tracking-protection-filter.txt, force-policy=reject, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=false
+https://raw.githubusercontent.com/sunshine970918/RemoveAds/refs/heads/main/QuantumultX/Rule/RemoveADS.list, force-policy=reject, update-interval=172800, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/listacc1sa/Ss/refs/heads/main/rules/ads/adqx.list, tag=adqx.list, force-policy=reject, update-interval=172800, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/dsvip/Quantumult-X/dec9019816ba55897c162c3dbd3ac997ac160f09/blackmatrix7/rule/Clash-2/Privacy_Domain.txt#L7925, force-policy=reject, update-interval=172800, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/gemnioo/MixedCFWRules/de29c8900a4776611975f85d71bac2b13cb19960/Surge/Hijacking.list, force-policy=reject, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/zirawell/Ad-Cleaner/85255aaf8e8d583c055df9681fabe5ebea99a64b/Collection/filter/allAdBlock.list, force-policy=reject, update-interval=172800, opt-parser=true, enabled=false
