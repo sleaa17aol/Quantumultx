@@ -1,78 +1,83 @@
-HOST-WILDCARD,apple.*
-HOST-WILDCARD,apple.com.*
-HOST-WILDCARD,appleworldwidedeveloper.*.net
-HOST-WILDCARD,imac.*
-HOST-WILDCARD,iphone.*
-HOST-WILDCARD,ipod.*
-HOST-WILDCARD,macbook.*
-USER-AGENT,*com.apple.mobileme.fmip1
-USER-AGENT,*WeatherFoundation*
-HOST,weather-data.apple.com
-USER-AGENT,com.apple.Maps
-USER-AGENT,*com.apple.Maps?
-USER-AGENT,Maps*
-HOST,gs-loc-cn.apple.com
-USER-AGENT,FindMyFriends*
-USER-AGENT,FindMyiPhone*
-USER-AGENT,*FindMyiPhone?
-USER-AGENT,FMDClient*
-USER-AGENT,FMFD*
-USER-AGENT,fmflocatord*
-USER-AGENT,geod*
-USER-AGENT,locationd*
-IP-CIDR,17.0.0.0/8
-IP-CIDR,63.92.224.0/19
-IP-CIDR,65.199.22.0/23
-IP-CIDR,139.178.128.0/18
-IP-CIDR,144.178.0.0/19
-IP-CIDR,144.178.36.0/22
-IP-CIDR,144.178.48.0/20
-IP-CIDR,192.35.50.0/24
-IP-CIDR,198.183.17.0/24
-IP-CIDR,205.180.175.0/24
-HOST-SUFFIX,apple.com
-HOST-SUFFIX,apple.co
-HOST-SUFFIX,apple.cn
-HOST-SUFFIX,apple.com.cn
-HOST-SUFFIX,cdn-apple.com
-HOST-SUFFIX,cdn-apple-mapkit.com
-HOST-SUFFIX,apple-mapkit.com
-HOST-SUFFIX,apple-cloudkit.com
-HOST-SUFFIX,aaplimg.com
-HOST-SUFFIX,me.com
-HOST-SUFFIX,mzstatic.com
-HOST-SUFFIX,akadns.net
-USER-AGENT,*Music?
-HOST-KEYWORD,smp-device
-USER-AGENT,passd*
-USER-AGENT,Wallet*
-HOST-SUFFIX,ls.apple.com.edgesuite.net
-HOST-SUFFIX,dispatcher.is.autonavi.com
-HOST-SUFFIX,apple.news
-## Apple Global CDN
-## iOS App Store
-HOST,iosapps.itunes.apple.com
-USER-AGENT,com.apple.appstored*
-## Mac App Store
-HOST,osxapps.itunes.apple.com
-HOST,oscdn.apple.com
-# PROCESS-NAME,storedownloadd
-## Update
-HOST,supportdownload.apple.com
-## Update
-HOST,appldnld.apple.com
-## Update
-HOST,swcdn.apple.com
-HOST,apptrailers.itunes.apple.com
-HOST,updates-http.cdn-apple.com
-HOST,updates.cdn-apple.com
-## App Store & iTunes Images
-HOST-SUFFIX,mzstatic.com
-## Apple Music Streaming
-HOST,aod.itunes.apple.com
-HOST,mvod.itunes.apple.com
-HOST,streamingaudio.itunes.apple.com
-## Other
-HOST,download.developer.apple.com
-HOST,downloaddispatch.itunes.apple.com
-HOST,app-site-association.cdn-apple.com
+# > General
+IP-ASN,63707
+DOMAIN-SUFFIX,apple.com,DIRECT
+DOMAIN-SUFFIX,icloud.com,DIRECT
+DOMAIN-SUFFIX,crashlytics.com,DIRECT
+# > Apple Music
+DOMAIN,aod.itunes.apple.com,DIRECT
+DOMAIN,api.smoot.apple.com,DIRECT
+DOMAIN,music.apple.com,DIRECT
+DOMAIN,mvod.itunes.apple.com,DIRECT
+# > App Store
+DOMAIN-SUFFIX,appstore.com,DIRECT
+USER-AGENT,com.apple.appstored*,DIRECT 
+PROCESS-NAME,storedownloadd,DIRECT 
+DOMAIN-SUFFIX,mzstatic.com,DIRECT
+DOMAIN,iosapps.itunes.apple.com,DIRECT
+DOMAIN,osxapps.itunes.apple.com,DIRECT
+USER-AGENT,com.apple.appstored*,DIRECT 
+# > Update
+DOMAIN,supportdownload.apple.com,DIRECT
+DOMAIN,appldnld.apple.com,DIRECT
+DOMAIN,swcdn.apple.com,DIRECT
+DOMAIN,apptrailers.itunes.apple.com,DIRECT
+DOMAIN,updates-http.cdn-apple.com,DIRECT
+# > Map
+DOMAIN,gs-loc-cn.apple.com,DIRECT
+DOMAIN-SUFFIX, push.apple.com,DIRECT
+DOMAIN, identity.apple.com,DIRECT
+IP-CIDR, 17.249.0.0/16, DIRECT
+IP-CIDR, 17.252.0.0/16, DIRECT
+IP-CIDR, 17.57.144.0/22, DIRECT
+IP-CIDR, 17.188.128.0/18, DIRECT
+IP-CIDR, 17.188.20.0/23, DIRECT
+IP-CIDR6, 2620:149:a44::/48, DIRECT
+IP-CIDR6, 2403:300:a42::/48, DIRECT
+IP-CIDR6, 2403:300:a51::/48, DIRECT
+IP-CIDR6, 2a01:b740:a42::/48, DIRECT
+# > AppleProxy
+USER-AGENT,AppleNews*,apple
+USER-AGENT,AppleTV*,apple
+USER-AGENT,com.apple.news*,apple
+USER-AGENT,com.apple.trustd*,apple
+USER-AGENT,com.apple.tv*,apple
+PROCESS-NAME,LookupViewService,apple
+DOMAIN,api-glb-sea.smoot.apple.com,apple
+DOMAIN,apple.comscoreresearch.com,apple
+DOMAIN,books.itunes.apple.com,apple
+DOMAIN,cdn.apple-cloudkit.com,apple
+DOMAIN,cvws.icloud-content.com,apple
+DOMAIN,developer.apple.com,apple
+//DOMAIN,devimages-cdn.apple.com,apple
+//DOMAIN,devstreaming-cdn.apple.com,apple
+DOMAIN,docs-assets.developer.apple.com,apple
+DOMAIN,gspe1-ssl.ls.apple.com,apple
+DOMAIN,hls-svod.itunes.apple.com,apple
+DOMAIN,itunes.apple.com,apple
+//DOMAIN,js-cdn.music.apple.com,apple
+DOMAIN,lookup-api.apple.com,apple
+DOMAIN,mask-api.icloud.com,apple
+DOMAIN,mask-h2.icloud.com,apple
+DOMAIN,mask.icloud.com,apple
+DOMAIN,news-assets.apple.com,apple
+DOMAIN,news-client.apple.com,apple
+DOMAIN,news-edge.apple.com,apple
+DOMAIN,news-events.apple.com,apple
+DOMAIN,np-edge.itunes.apple.com,apple
+DOMAIN,play-edge.itunes.apple.com,apple
+DOMAIN,sandbox.itunes.apple.com,apple
+DOMAIN,testflight.apple.com,apple
+DOMAIN,tv.applemusic.com,apple
+DOMAIN,uts-api.itunes.apple.com,apple
+DOMAIN-SUFFIX,apple-dns.net,apple
+DOMAIN-SUFFIX,apple.news,apple
+//DOMAIN-SUFFIX,apps.apple.com,apple
+DOMAIN-SUFFIX,appsto.re,apple
+DOMAIN-SUFFIX,audio-ssl.itunes.apple.com,apple
+DOMAIN-SUFFIX,blobstore.apple.com,apple
+DOMAIN-SUFFIX,cdn-apple.com,apple
+DOMAIN-SUFFIX,digicert.com,apple
+DOMAIN-SUFFIX,hls-amt.itunes.apple.com,apple
+DOMAIN-SUFFIX,hls.itunes.apple.com,apple
+DOMAIN-SUFFIX,ocsp.apple.com,apple
+DOMAIN-SUFFIX,tv.apple.com,apple
