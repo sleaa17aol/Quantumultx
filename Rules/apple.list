@@ -1,7 +1,7 @@
 # > General
 IP-ASN,63707
 DOMAIN-SUFFIX,apple.com,DIRECT
-DOMAIN-SUFFIX,icloud.com,DIRECT
+DOMAIN-SUFFIX,icloud.com,apple
 DOMAIN-SUFFIX,crashlytics.com,DIRECT
 # > Apple Music
 DOMAIN,aod.itunes.apple.com,DIRECT
@@ -59,6 +59,7 @@ DOMAIN,lookup-api.apple.com,apple
 DOMAIN,mask-api.icloud.com,apple
 DOMAIN,mask-h2.icloud.com,apple
 DOMAIN,mask.icloud.com,apple
+HOST-WILDCARD,mask.icloud.com,apple
 DOMAIN,news-assets.apple.com,apple
 DOMAIN,news-client.apple.com,apple
 DOMAIN,news-edge.apple.com,apple
