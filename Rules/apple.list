@@ -1,5 +1,5 @@
 # > General
-IP-ASN,63707
+IP-ASN,63707,DIRECT 
 DOMAIN-SUFFIX,apple.com,DIRECT
 DOMAIN-SUFFIX,icloud.com,apple
 DOMAIN-SUFFIX,crashlytics.com,DIRECT
