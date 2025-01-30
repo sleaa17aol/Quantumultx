@@ -1,0 +1,319 @@
+# Google Voice 相关域名
+HOST,voice.telephony.goog,PROXY
+HOST,lens.l.google.com,PROXY
+HOST,sub-store.vercel.app,DIRECT
+HOST-SUFFIX,voice.google.com,PROXY
+HOST-SUFFIX,challenges.cloudflare.com,Cloudflare
+HOST-KEYWORD,www.google.,GOOGLE 
+HOST-KEYWORD,github,TESTFLIGHT 
+HOST-SUFFIX,-github.com,TESTFLIGHT
+HOST-WILDCARD,-github.com,TESTFLIGHT
+# > geoip countries
+geoip,PRIVATE,IP-ASN
+geoip,n/a,IP-ASN
+host-wildcard, *.sa,Cloudflare 
+host-wildcard, *.cn, Cloudflare 
+GEOIP,twitter,DIRECT 
+GEOIP,FACEBOOK,DIRECT 
+GEOIP,cloudflare,Cloudflare
+geoip,telegram,DIRECT 
+GEOIP,FACEBOOK,DIRECT 
+#⬇️ specify region
+GEOIP,53667,Cloudflare
+GEOIP,JP,IP-ASN // GEOIP Global
+GEOIP,KR,IP-ASN // GEOIP Global
+GEOIP,HK,IP-ASN // GEOIP Global
+GEOIP,TW,IP-ASN // GEOIP Global
+GEOIP,SG,IP-ASN // GEOIP Global
+GEOIP,US,IP-ASN // GEOIP Global
+
+#⬇️  // East Asia
+
+GEOIP,KP,IP-ASN // East Asia
+GEOIP,MN,IP-ASN // East Asia
+
+#⬇️ //Southeast Asia
+
+GEOIP,MO,DIRECT //Southeast Asia
+GEOIP,LA,DIRECT //Southeast Asia
+GEOIP,MM,DIRECT //Southeast Asia
+GEOIP,VN,DIRECT //Southeast Asia
+GEOIP,TH,DIRECT //Southeast Asia
+GEOIP,PH,DIRECT //Southeast Asia
+GEOIP,ID,DIRECT //Southeast Asia
+GEOIP,MY,DIRECT //Southeast Asia
+GEOIP,TL,DIRECT //Southeast Asia
+
+#⬇️ // South Asia
+
+GEOIP,BD,DIRECT // South Asia
+GEOIP,BN,DIRECT // South Asia
+GEOIP,BT,DIRECT // South Asia
+GEOIP,CC,DIRECT // South Asia
+GEOIP,CX,DIRECT // South Asia
+GEOIP,IN,DIRECT // South Asia
+GEOIP,KH,DIRECT // South Asia
+GEOIP,LK,DIRECT // South Asia
+GEOIP,MV,DIRECT // South Asia
+GEOIP,NP,DIRECT // South Asia
+
+#⬇️ // Central Asia
+
+GEOIP,KG,DIRECT // Central Asia
+GEOIP,KZ,DIRECT // Central Asia
+GEOIP,PK,DIRECT // Central Asia
+GEOIP,TM,DIRECT // Central Asia
+GEOIP,TJ,DIRECT // Central Asia
+GEOIP,UZ,DIRECT // Central Asia
+
+
+#⬇️ // West Asia
+
+GEOIP,AF,DIRECT // West Asia
+GEOIP,AZ,DIRECT // West Asia
+GEOIP,BN,DIRECT // West Asia
+GEOIP,IL,DIRECT // West Asia
+GEOIP,IR,DIRECT // West Asia
+GEOIP,IQ,DIRECT // West Asia
+GEOIP,JO,DIRECT // West Asia
+GEOIP,KW,DIRECT // West Asia
+GEOIP,LB,DIRECT // West Asia
+GEOIP,OM,DIRECT // West Asia
+GEOIP,QA,DIRECT // West Asia
+GEOIP,SA,DIRECT // West Asia
+GEOIP,SY,DIRECT // West Asia
+GEOIP,YE,DIRECT // West Asia
+
+#⬇️ // Oceania
+
+GEOIP,AU,IP-ASN // Oceania
+GEOIP,CK,IP-ASN // Oceania
+GEOIP,FJ,IP-ASN // Oceania
+GEOIP,FM,IP-ASN // Oceania
+GEOIP,GU,IP-ASN // Oceania
+GEOIP,KI,IP-ASN // Oceania
+GEOIP,MH,IP-ASN // Oceania
+GEOIP,NR,IP-ASN // Oceania
+GEOIP,NU,IP-ASN // Oceania
+GEOIP,NZ,IP-ASN // Oceania
+GEOIP,PW,IP-ASN // Oceania
+GEOIP,PG,IP-ASN // Oceania
+GEOIP,PN,IP-ASN // Oceania
+GEOIP,SB,IP-ASN // Oceania
+GEOIP,TO,IP-ASN // Oceania
+GEOIP,TV,IP-ASN // Oceania
+GEOIP,VU,IP-ASN // Oceania
+
+#⬇️ // Europe
+
+GEOIP,AD,IP-ASN // Europe
+GEOIP,AL,IP-ASN // Europe
+GEOIP,AM,IP-ASN // Europe
+GEOIP,AT,IP-ASN // Europe
+GEOIP,AX,IP-ASN // Europe
+GEOIP,BA,IP-ASN // Europe
+GEOIP,BE,IP-ASN // Europe
+GEOIP,BG,IP-ASN // Europe
+GEOIP,BY,IP-ASN // Europe
+GEOIP,CH,IP-ASN // Europe
+GEOIP,CY,IP-ASN // Europe
+GEOIP,CZ,IP-ASN // Europe
+GEOIP,DE,IP-ASN // Europe
+GEOIP,DK,IP-ASN // Europe
+GEOIP,EE,IP-ASN // Europe
+GEOIP,ES,IP-ASN // Europe
+GEOIP,FI,IP-ASN // Europe
+GEOIP,FR,IP-ASN // Europe
+GEOIP,GB,IP-ASN // Europe
+GEOIP,GE,IP-ASN // Europe
+GEOIP,GR,IP-ASN // Europe
+GEOIP,HR,IP-ASN // Europe
+GEOIP,HU,IP-ASN // Europe
+GEOIP,IE,IP-ASN // Europe
+GEOIP,IS,IP-ASN // Europe
+GEOIP,IT,IP-ASN // Europe
+GEOIP,LV,IP-ASN // Europe
+GEOIP,LT,IP-ASN // Europe
+GEOIP,LU,IP-ASN // Europe
+GEOIP,MK,IP-ASN // Europe
+GEOIP,MT,IP-ASN // Europe
+GEOIP,NL,IP-ASN // Europe
+GEOIP,NO,IP-ASN // Europe
+GEOIP,PL,IP-ASN // Europe
+GEOIP,PT,IP-ASN // Europe
+GEOIP,RO,IP-ASN // Europe
+GEOIP,RU,IP-ASN // Europe
+GEOIP,SE,IP-ASN // Europe
+GEOIP,SI,IP-ASN // Europe
+GEOIP,SJ,IP-ASN // Europe
+GEOIP,SK,IP-ASN // Europe
+GEOIP,TR,IP-ASN // Europe
+GEOIP,UA,IP-ASN // Europe
+
+#⬇️ // North America
+
+GEOIP,CA,IP-ASN // North America
+GEOIP,MX,IP-ASN // North America
+GEOIP,TT,IP-ASN // North America
+
+#⬇️ // South America
+
+GEOIP,AR,IP-ASN // South America
+GEOIP,BO,IP-ASN // South America
+GEOIP,BR,IP-ASN // South America
+GEOIP,CL,IP-ASN // South America
+GEOIP,CO,IP-ASN // South America
+GEOIP,EC,IP-ASN // South America
+GEOIP,GF,IP-ASN // South America
+GEOIP,GY,IP-ASN // South America
+GEOIP,PE,IP-ASN // South America
+
+#⬇️ // Africa
+
+GEOIP,AO,IP-ASN // Africa
+GEOIP,BJ,IP-ASN // Africa
+GEOIP,BW,IP-ASN // Africa
+GEOIP,CD,IP-ASN // Africa
+GEOIP,CG,IP-ASN // Africa
+GEOIP,CI,IP-ASN // Africa
+GEOIP,CM,IP-ASN // Africa
+GEOIP,DZ,IP-ASN // Africa
+GEOIP,EG,IP-ASN // Africa
+GEOIP,GQ,IP-ASN // Africa
+GEOIP,GA,IP-ASN // Africa
+GEOIP,GM,IP-ASN // Africa
+GEOIP,GH,IP-ASN // Africa
+GEOIP,GN,IP-ASN // Africa
+GEOIP,GW,IP-ASN // Africa
+GEOIP,KE,IP-ASN // Africa
+GEOIP,LS,IP-ASN // Africa
+GEOIP,LR,IP-ASN // Africa
+GEOIP,LY,IP-ASN // Africa
+GEOIP,MA,IP-ASN // Africa
+GEOIP,MG,IP-ASN // Africa
+GEOIP,ML,IP-ASN // Africa
+GEOIP,MR,IP-ASN // Africa
+GEOIP,MW,IP-ASN // Africa
+GEOIP,MZ,IP-ASN // Africa
+GEOIP,NA,IP-ASN // Africa
+GEOIP,NE,IP-ASN // Africa
+GEOIP,NG,IP-ASN // Africa
+GEOIP,RW,IP-ASN // Africa
+GEOIP,SC,IP-ASN // Africa
+GEOIP,SD,IP-ASN // Africa
+GEOIP,SL,IP-ASN // Africa
+GEOIP,SO,IP-ASN // Africa
+GEOIP,SN,IP-ASN // Africa
+GEOIP,ST,IP-ASN // Africa
+GEOIP,SZ,IP-ASN // Africa
+GEOIP,TG,IP-ASN // Africa
+GEOIP,TN,IP-ASN // Africa
+GEOIP,TZ,IP-ASN // Africa
+GEOIP,UG,IP-ASN // Africa
+GEOIP,ZA,IP-ASN // Africa
+GEOIP,ZW,IP-ASN // Africa
+
+#⬇️ Antarctica
+
+GEOIP,AQ,IP-ASN // Antarctica
+GEOIP,GFW,IP-ASN 
+
+# GEOIP SITE
+IP-ASN,209242,Cloudflare //🌥️Cloudflare
+IP-ASN,62014,DIRECT  // 🚀TELEGRAM
+IP-ASN,62041,DIRECT // 🌎TELEGRAM
+IP-ASN,44907,DIRECT // 🌎TELEGRAM
+IP-ASN,59930,DIRECT // 🌎TELEGRAM
+IP-ASN,211157,DIRECT // 🌎TELEGRAM
+IP-ASN,43766,DIRECT // 🇸🇦 saudi Arabia
+IP-ASN,204957,DIRECT //🇸🇦 saudi Arabia 
+IP-ASN,45102,IP-ASN // 🇺🇸Alibaba (US)
+IP-ASN,134963,PROXY //🇺🇸Alibaba-Singapore
+IP-ASN,6185,DIRECT // 🇺🇸 APPLE-AUSTIN
+ip-asn,199524,DIRECT // 🇺🇸OPEN AI
+IP-ASN,1239,DIRECT // 🇸🇦archive
+ip-asn,714,DIRECT //🇺🇸Apple Inc.
+ip-asn,2914,DIRECT //🇺🇸NTT America, Inc
+ip-asn,3462,DIRECT //🇼🇸Data Communication 
+ip-asn,4230,DIRECT //🇧🇷CLARO S.A.
+ip-asn,8068,MICROSOFT //🇺🇸Microsoft 
+ip-asn,8075,MICROSOFT //🇺🇸Microsoft 
+ip-asn,9009,IP-ASN //🇷🇴M247 Europe
+ip-asn,13333,Cloudflare //🇺🇸Consolidated 
+ip-asn,13335,Cloudflare //🌥️Cloudflare
+ip-asn,13414,DIRECT //🇺🇸Twitter Inc.
+IP-ASN,63179,DIRECT //🇺🇸Twitter Inc.
+IP-ASN,35995,DIRECT //🇺🇸Twitter Inc.
+IP-ASN,63194,DIRECT //🇺🇸Twitter Inc.
+ip-asn,14061,IP-ASN //🇺🇸DigitalOcean
+ip-asn,14618,AMAZON //🇺🇸Amazon.com, Inc.
+ip-asn,15133,IP-ASN //🇺🇸EdgeCast  Inc.
+ip-asn,15169,IP-ASN //🇺🇸Google LLC
+ip-asn,16509,IP-ASN //🇺🇸Amazon.com, Inc.
+ip-asn,16625,IP-ASN //🇺🇸Akamai , Inc.
+ip-asn,19679,DIRECT //🇺🇸Dropbox, Inc.
+ip-asn,20940,IP-ASN //🇳🇱Akamai  B.V.
+ip-asn,24940,IP-ASN //🇩🇪Hetzner Online 
+ip-asn,29423,IP-ASN //🇩🇪gridscale GmbH
+ip-asn,32934,DIRECT //🇺🇸whatsapp, Inc.
+IP-ASN,32934,DIRECT //🇺🇸whatsapp, Inc.
+IP-ASN,11917,DIRECT //🇺🇸whatsapp, Inc.
+IP-ASN,54115,DIRECT //🇺🇸whatsapp, Inc.
+IP-ASN,63293,DIRECT //🇺🇸whatsapp, Inc.
+ip-asn,36351,DIRECT //🇺🇸SoftLayer  Inc.
+ip-asn,40065,DIRECT //🇺🇸CNSERVERS LLC
+ip-asn,48447,DIRECT //🇬🇧Sectigo Limited
+ip-asn,54113,DIRECT //🇺🇸Fastly, Inc.
+ip-asn,54600,IP-ASN //🇺🇸PEG TECH INC
+ip-asn,54994,IP-ASN //🇺🇸QUANTIL  INC
+ip-asn,58722,DIRECT //🇸🇬51 JALAN LANJUT
+ip-asn,59507,DIRECT //🇩🇪terralink  GmbH
+ip-asn,60068,DIRECT //🇬🇧Datacamp Limited
+ip-asn,63949,IP-ASN//🇸🇬Akamai  Cloud
+ip-asn,64050,DIRECT //🇸🇬BGPNET Global ASN
+ip-asn,136907,DIRECT //🇭🇰HUAWEI CLOUDS
+ip-asn,142403,DIRECT //🇭🇰YISU CLOUD LTD
+ip-asn,197019,DIRECT //🇨🇿WEDOS Internet
+ip-asn,200019,DIRECT //🇲🇩ALEXHOST SRL#
+ip-asn,396982,GOOGLE //🇺🇸Google LLC
+IP-ASN,35819,IP-ASN //🇸🇦itthad ittisalalt
+IP-ASN,20473,GPT AI // 🇺🇸OPEN AI
+IP-ASN,2635,IP-ASN // 🇺🇸AUTOMÁTICA
+IP-ASN,63018,DIRECT // reddit🚀
+IP-ASN,20278,PROXY //🇺🇸Nexeon
+IP-ASN,60068,PROXY //🇺🇸Datacamp Limited
+IP-ASN,212238,PROXY //🇺🇸Datacamp Limited
+IP-ASN,51852,PROXY //🇺🇸Private Layer INC
+IP-ASN,50304,PROXY //🇺🇸Blix Solutions
+IP-ASN,4785,PROXY //🇺🇸xTom
+IP-ASN,6233,PROXY //🇺🇸xTom
+IP-ASN,9312,PROXY //🇺🇸xTom
+IP-ASN,199524,PROXY //🇺🇸G-Core Labs S.A.
+IP-ASN,205119,PROXY //🇺🇸TELEKS DOOEL
+IP-ASN,46562,PROXY//🇺🇸Performive LLC
+IP-ASN,8100,PROXY //🇺🇸QuadraNet  LLC
+IP-ASN,7185,PROXY//🇺🇸QuadraNet  Services
+IP-ASN,13213,PROXY //🇺🇸UK-2 Limited
+IP-ASN,46844,PROXY //🇺🇸Sharktech
+IP-ASN,14197,Cloudflare //🇺🇸STRIPE 
+IP-ASN,36459,DIRECT //🇺🇸 GITHUB 
+IP-ASN,139879,DIRECT //🇨🇳INFINITE TAP
+IP-ASN,62371,PROXY //🇺🇸protonAG
+IP-ASN,834,IP-ASN // 🇺🇸IPXO.COM
+IP-ASN,212772,IP-ASN // 🇺🇸ADGUARD VPN
+IP-ASN,53334,IP-ASN
+IP-ASN,31898,IP-ASN
+IP-ASN,37963,DIRECT
+
+#geoip SITE
+GEOIP,Lan,DIRECT 
+Geoip,Cloudfront,Cloudflare
+Geoip,MICROSOFT,IP-ASN
+Geoip,MSN,IP-ASN
+geoip,whatsapp,DIRECT 
+GEOIP,FACEBOOK,DIRECT //geoip SITE
+GEOIP,GOOGLE,GOOGLE //geoip SITE
+GEOIP,TELEGRAM,DIRECT //geoip SITE
+GEOIP,TWITTER,DIRECT //geoip SITE
+GEOIP,FASTLY,DIRECT //geoip SITE
+GEOIP,CLOUDFRONT,Cloudflare //geoip SITE
