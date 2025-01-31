@@ -1,0 +1,7 @@
+https://raw.githubusercontent.com/sleaa17aol/Quantumultx/refs/heads/main/Rules/ads/reject.txt, tag=rejected host, force-policy=reject, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/Cats-Team/AdRules/main/qx.conf, tag=qx🚫, force-policy=reject, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=false
+https://raw.githubusercontent.com/netrule8/my_rule/refs/heads/main/ad_block.sgmodule, tag=/ad_block🚫, force-policy=reject, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+https://raw.githubusercontent.com/Moli-X/Tool/560101ac8c1e07bf15cfbb4556edadd1caf6396b/QuantumultX/Rules/Ads_SukkaW.list, force-policy=reject, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/sleaa17aol/ADS_RULES/main/RuleSet/Rejected.txt, tag=rejected 🚫🚫, force-policy=reject, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+https://raw.githubusercontent.com/xOS/Config/refs/heads/Her/RuleSet/AdRules/FanboysAnnoyances.list, tag=FanboysAnnoyances🚫, force-policy=reject, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
+https://raw.githubusercontent.com/xOS/Config/Her/RuleSet/Advertising.list, tag=advertising 🚫, force-policy=reject, update-interval=172800, opt-parser=true, inserted-resource=true, enabled=true
