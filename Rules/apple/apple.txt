@@ -1,0 +1,77 @@
+# >> Apple URL Shortener
+HOST-SUFFIX,appsto.re,DIRECT
+# >> iBooks Store download
+HOST,books.itunes.apple.com,DIRECT
+# >> iTunes Store Moveis Trailers
+HOST,hls.itunes.apple.com,DIRECT
+# >> Spotlight
+HOST,api-glb-sea.smoot.apple.com,DIRECT
+# >> Dictionary
+HOST,lookup-api.apple.com,apple
+PROCESS-NAME,LookupViewService, proxy
+HOST,api-glb-sea.smoot.apple.com,apple
+HOST,apple.comscoreresearch.com,apple
+HOST,books.itunes.apple.com,apple
+HOST,cdn.apple-cloudkit.com,apple
+HOST,cvws.icloud-content.com,apple
+HOST,developer.apple.com,apple
+HOST,devimages-cdn.apple.com,apple
+HOST,devstreaming-cdn.apple.com,apple
+HOST,docs-assets.developer.apple.com,apple
+HOST,gspe1-ssl.ls.apple.com,apple
+HOST,hls-svod.itunes.apple.com,apple
+HOST,itunes.apple.com,apple
+HOST,js-cdn.music.apple.com,apple
+HOST,lookup-api.apple.com,apple
+HOST,mask-api.icloud.com,apple
+HOST,mask-h2.icloud.com,apple
+HOST,mask.icloud.com,apple
+HOST,news-assets.apple.com,apple
+HOST,news-client.apple.com,apple
+HOST,news-edge.apple.com,apple
+HOST,news-events.apple.com,apple
+HOST,np-edge.itunes.apple.com,apple
+HOST,play-edge.itunes.apple.com,apple
+HOST,sandbox.itunes.apple.com,apple
+HOST,testflight.apple.com,apple
+HOST,tv.applemusic.com,apple
+HOST,uts-api.itunes.apple.com,apple
+HOST-SUFFIX,apple-dns.net,apple
+HOST-SUFFIX,apple.news,apple
+HOST-SUFFIX,apps.apple.com,apple
+HOST-SUFFIX,appsto.re,apple
+HOST-SUFFIX,audio-ssl.itunes.apple.com,apple
+HOST-SUFFIX,blobstore.apple.com,apple
+HOST-SUFFIX,cdn-apple.com,apple
+HOST-SUFFIX,digicert.com,apple
+HOST-SUFFIX,hls-amt.itunes.apple.com,apple
+HOST-SUFFIX,hls.itunes.apple.com,apple
+HOST-SUFFIX,ocsp.apple.com,apple
+HOST-SUFFIX,tv.apple.com,apple
+USER-AGENT,AppleNews*,apple
+USER-AGENT,AppleTV*,apple
+USER-AGENT,com.apple.news*,apple
+USER-AGENT,com.apple.trustd*,apple
+USER-AGENT,com.apple.tv*,apple
+
+HOST,safebrowsing.urlsec.qq.com,apple
+HOST,safebrowsing.googleapis.com,apple
+user-agent,com.apple.appstored*,apple
+user-agent,AppStore*,direct
+HOST-suffix,mzstatic.com,direct
+HOST-suffix,itunes.apple.com,direct
+HOST-suffix,icloud.com,apple
+HOST-suffix,icloud-content.com,direct
+user-agent,cloudd*,direct
+HOST-suffix,me.com,direct
+HOST-suffix,aaplimg.com,direct
+HOST-suffix,cdn20.com,direct
+HOST-suffix,cdn-apple.com,direct
+HOST-suffix,akadns.net,direct
+HOST-suffix,akamaiedge.net,direct
+HOST-suffix,edgekey.net,direct
+HOST-suffix,mwcloudcdn.com,direct
+HOST-suffix,mwcname.com,direct
+HOST-suffix,apple.com,direct
+HOST-suffix,apple-cloudkit.com,direct
+HOST-suffix,apple-mapkit.com,direct
