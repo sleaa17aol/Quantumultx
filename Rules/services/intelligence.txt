@@ -1,0 +1,125 @@
+payload:
+#NVIDIA
+HOST,build.nvidia.com
+HOST,api.ngc.nvidia.com
+HOST,brand-assets.cne.ngc.nvidia.com
+HOST-SUFFIX,ngc.nvidia.com
+  
+# Gemini 
+HOST,bard.google.com
+HOST,gemini.google.com
+HOST,alkalicore-pa.clients6.google.com
+HOST,alkalimakersuite-pa.clients6.google.com
+HOST,alkalimetricsink-pa.clients6.google.com
+HOST,ai.google.dev
+HOST,aistudio.google.com
+HOST-SUFFIX,labs.google
+HOST-SUFFIX,deepmind.com
+HOST-SUFFIX,deepmind.google
+HOST,generativelanguage.googleapis.com
+HOST-SUFFIX,generativelanguage.googleapis.com
+HOST-SUFFIX,geller-pa.googleapis.com
+HOST-SUFFIX,proactivebackend-pa.googleapis.com
+HOST,makersuite.google.com
+HOST-SUFFIX,generativeai.google
+  
+HOST,content-developerprofiles-pa.googleapis.com
+
+# OpenAI
+HOST,chat.com
+HOST,ios.chat.openai.com
+HOST,android.chat.openai.com
+HOST,desktop.chat.openai.com
+HOST-SUFFIX,openai.com
+HOST,operator.chatgpt.com
+HOST-SUFFIX,chatgpt.com
+HOST-SUFFIX,oaistatic.com
+HOST,files.oaiusercontent.com 
+HOST-SUFFIX,oaiusercontent.com
+HOST-SUFFIX,identrust.com
+HOST,cdn.auth0.com
+HOST,challenges.cloudflare.com
+HOST,chat.openai.com.cdn.cloudflare.net
+HOST,openaiapi-site.azureedge.net
+HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+HOST,openaicomproductionae4b.blob.core.windows.net
+HOST,production-openaicom-storage.azureedge.net
+# DOMAIN,nexus-websocket-a.intercom.io
+HOST,openai-api.arkoselabs.com
+HOST,chatgpt.livekit.cloud
+ # ChatGPT voice mode TCP 443 request 
+HOST-SUFFIX,turn.livekit.cloud
+ # ChatGPT voice mode UDP 3478 request
+HOST-SUFFIX,host.livekit.cloud
+HOST,api.statsig.com
+HOST,rum.browser-intake-datadoghq.com
+HOST-SUFFIX,browser-intake-datadoghq.com
+HOST,prodregistryv2.org
+HOST,featureassets.org
+ # Sora
+HOST,www.sora.com
+HOST,sora-cdn.oaistatic.com
+HOST-SUFFIX,sora.com
+HOST,videos.openai.com
+
+ # Stripe IAP revenuecat
+HOST,js.stripe.com 
+HOST,m.stripe.com
+HOST,r.stripe.com
+HOST,api.stripe.com
+HOST,m.stripe.network
+HOST,b.stripecdn.com
+HOST,merchant-ui-api.stripe.com
+HOST,stripe-camo.global.ssl.fastly.net
+HOST-SUFFIX,stripe.com
+HOST,hcaptcha.com
+HOST,api2.hcaptcha.com
+HOST-SUFFIX,hcaptcha.com
+HOST,api.revenuecat.com
+
+# Claude
+HOST,cdn.usefathom.com
+HOST,api.anthropic.com
+HOST-SUFFIX,claude.ai
+HOST-SUFFIX,anthropic.com
+HOST,www.claudeusercontent.com
+HOST-SUFFIX,claudeusercontent.com
+# Claude iOS app Sift API
+HOST,api3.siftscience.com
+
+# aws bedrock
+HOST,bedrock.us-east-1.amazonaws.com 
+HOST,bedrock.us-east-2.amazonaws.com 
+HOST,bedrock.us-west-2.amazonaws.com 
+HOST,bedrock-runtime.us-east-1.amazonaws.com 
+HOST,bedrock-runtime.us-east-2.amazonaws.com 
+HOST,bedrock-runtime.us-west-2.amazonaws.com
+HOST,bedrock-agent.us-east-1.amazonaws.com
+HOST,bedrock-agent.us-west-2.amazonaws.com
+HOST,bedrock-agent-runtime.us-east-1.amazonaws.com
+HOST,bedrock-agent-runtime.us-west-2.amazonaws.com
+
+# Perplexity
+HOST-SUFFIX,perplexity.ai
+HOST,pplx-res.cloudinary.com
+
+# Mistral
+HOST,chat.mistral.ai
+HOST,auth.mistral.ai
+HOST,console.mistral.ai
+HOST-SUFFIX,mistral.ai
+
+# Jina
+HOST,segment.jina.ai
+HOST,api.jina.ai
+HOST,r.jina.ai
+HOST,s.jina.ai
+HOST,g.jina.ai
+HOST-SUFFIX,jina.ai
+# Others
+HOST,x.ai
+HOST,ai.meta.com
+HOST,ai.gitee.com
+HOST,kpu.maisa.ai
+HOST-SUFFIX,maisa.ai
+HOST-SUFFIX,dify.ai
