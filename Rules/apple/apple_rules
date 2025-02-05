@@ -1,0 +1,77 @@
+# > Apple APIs
+# >> Location Service
+host-suffix,ls.apple.com,DIRECT
+# >> Push Service
+host,init-p01md.apple.com,DIRECT
+host-SUFFIX,init*.push.apple.com,DIRECT
+host-SUFFIX,init*.push-apple.com.akadns.net,DIRECT
+host-suffix,courier-push-apple.com.akadns.net,DIRECT
+host-suffix,push.apple.com,DIRECT
+host-SUFFIX,appleworldwidedeveloper.*.net,DIRECT
+host-suffix,adcdownload.apple.com,DIRECT
+host-suffix,developer.apple.com,DIRECT
+
+# > Apple Stores
+host,apps.apple.com,DIRECT
+host,iosapps.itunes.apple.com,DIRECT
+host,osxapps.itunes.apple.com,DIRECT
+host-suffix,appsto.re,DIRECT
+host-suffix,mzstatic.com,DIRECT
+
+# > Apple Websites
+host-suffix,aaplimg.com,DIRECT
+host-suffix,apple.co,DIRECT
+host-suffix,apple.com,DIRECT
+host-suffix,apple.com.cn,DIRECT
+host-SUFFIX,apple.*,DIRECT
+host-SUFFIX,apple.com.*,DIRECT
+host-suffix,itunes.com,DIRECT
+host-suffix,me.com,DIRECT
+host-SUFFIX,ipod.*,DIRECT
+host-SUFFIX,imac.*,DIRECT
+host-SUFFIX,iphone.*,DIRECT
+host-SUFFIX,ipad.*,DIRECT
+host-SUFFIX,ipadair.*,DIRECT
+host-SUFFIX,ipadmini.*,DIRECT
+host-SUFFIX,macbook.*,DIRECT
+host-SUFFIX,macbookair.*,DIRECT
+host-SUFFIX,macbookpro.*,DIRECT
+
+# > Apple CIDR
+ip-cidr,17.0.0.0/8,DIRECT
+ip-cidr,63.92.224.0/19,DIRECT
+ip-cidr,65.199.22.0/23,DIRECT
+ip-cidr,139.178.128.0/18,DIRECT
+ip-cidr,144.178.0.0/19,DIRECT
+ip-cidr,144.178.36.0/22,DIRECT
+ip-cidr,144.178.48.0/20,DIRECT
+ip-cidr,192.35.50.0/24,DIRECT
+ip-cidr,198.183.17.0/24,DIRECT
+ip-cidr,205.180.175.0/24,DIRECT
+# > Apple Resources Server
+host,testflight.apple.com,apple
+host-suffix,appldnld.apple.com,apple
+host-suffix,secure-appldnld.apple.com,apple
+host-suffix,itunesu.assets.itunes.com,apple
+
+# > Apple CDNs
+host,updates-http.cdn-apple.com,DIRECT
+host-suffix,apple-support.akadns.net,DIRECT
+host-suffix,apple.com.akadns.net,DIRECT
+host,adcdownload.apple.com.akadns.net,DIRECT
+host-suffix,apple.com.cdn20.com,DIRECT
+host-suffix,apple.com.edgekey.net.globalredir.akadns.net,DIRECT
+host-suffix,apple.com.mwcname.com,DIRECT
+host-suffix,apple.com.mwcloudcdn.com,DIRECT
+host-suffix,cdn-apple.com,DIRECT
+host-suffix,cdn-apple.com.akadns.net,DIRECT
+host-suffix,isu.apple.com.akadns.net,DIRECT
+host-suffix,itunes-apple.com.akadns.net,DIRECT
+host-suffix,itunes.com.edgekey.net,DIRECT
+host-suffix,origin-apple.com.akadns.net,DIRECT
+host-suffix,push-apple.com.akadns.net,DIRECT 
+host-suffix,prod-support.apple-support.akadns.net,DIRECT
+# > Apple Kit
+host-suffix,apple-cloudkit.com,PROXY 
+host-suffix,apple-mapkit.com,PROXY
+host-suffix,apple-livephotoskit.com,PROXY
