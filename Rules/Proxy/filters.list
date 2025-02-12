@@ -1203,7 +1203,7 @@ USER-AGENT,Roam*,PROXY
 # (The Most Popular Sites)
 # > Apple
 # >> TestFlight
-HOST,testflight.apple.com,PROXY
+HOST,testflight.apple.com,apple
 # >> Apple URL Shortener
 HOST-SUFFIX,appsto.re,PROXY
 # >> iBooks Store download
@@ -1741,3 +1741,22 @@ IP-CIDR,10.0.0.0/8,DIRECT
 IP-CIDR,172.16.0.0/12,DIRECT
 IP-CIDR,127.0.0.0/8,DIRECT
 IP-CIDR,100.64.0.0/10,DIRECT
+
+# DNSPod Public DNS+
+IP-CIDR,119.28.28.28/32,DIRECT,no-resolve
+# GeoIP China
+GEOIP,CN,DIRECT
+
+FINAL,PROXY
+
+[GLOBAL]
+SELECTED,PROXY
+
+[HOST]
+*.taobao.com = server:223.5.5.5
+*.tmall.com = server:223.5.5.5
+
+[STATE]
+STATE,AUTO
+
+[MITM]
