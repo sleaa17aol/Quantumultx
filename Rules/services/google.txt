@@ -1,0 +1,20 @@
+# > Google
+HOST-SUFFIX,googletraveladservices.com,PROXY
+HOST,analyticsinsights-pa.googleapis.com,PROXY
+HOST,analyticsreporting.googleapis.com,PROXY
+HOST,dl.google.com,PROXY
+HOST,mtalk.google.com,PROXY
+user-agent, com.google.ios.youtube*, YouTube PREMIUM
+user-agent, YouTube*, YouTube PREMIUM
+host-suffix, googlevideo.com, YouTube PREMIUM
+host-suffix, withyoutube.com, YouTube PREMIUM
+host-suffix, youtu.be, YouTube PREMIUM
+host-suffix, youtube.com, YouTube PREMIUM
+host-suffix, youtubeeducation.com, YouTube PREMIUM
+host-suffix, youtubegaming.com, YouTube PREMIUM
+host-suffix, youtubekids.com, YouTube PREMIUM
+host-suffix, youtube-nocookie.com, YouTube PREMIUM
+host-suffix, yt.be, YouTube PREMIUM
+host-suffix, ytimg.com, YouTube PREMIUM
+host, youtubei.googleapis.com, YouTube PREMIUM
+host, yt3.ggpht.com, YouTube PREMIUM
