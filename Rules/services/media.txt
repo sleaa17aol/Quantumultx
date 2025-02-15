@@ -20,13 +20,6 @@ user-agent, SoundCloud*, proxy
 host-suffix, p-cdn.us, proxy
 host-suffix, sndcdn.com, proxy
 host-suffix, soundcloud.com, proxy
-user-agent, Spotify*, proxy
-host-suffix, pscdn.co, proxy
-host-suffix, scdn.co, proxy
-host-suffix, spotify.com, proxy
-host-suffix, spoti.fi, proxy
-host-keyword, spotify.com, proxy
-host-keyword, -spotify-com, proxy
 user-agent, TIDAL*, proxy
 host-suffix, tidal.com, proxy
 user-agent, com.google.ios.youtubemusic*, proxy
