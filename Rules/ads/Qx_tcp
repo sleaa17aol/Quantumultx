@@ -1,0 +1,137 @@
+host-suffix, cn, SNAPCHAT
+host-suffix, ccgslb.com, SNAPCHAT
+host-suffix, ccgslb.net, SNAPCHAT
+host-suffix, dl.google.com, SNAPCHAT
+host, accounts.google.com, SNAPCHAT, force-remote-dns
+host-suffix, appspot.com, SNAPCHAT, force-remote-dns
+host-suffix, cdninstagram.com, SNAPCHAT, force-remote-dns
+host-suffix, facebook.com, SNAPCHAT, force-remote-dns
+host-suffix, fb.com, SNAPCHAT, force-remote-dns
+host-suffix, fb.me, SNAPCHAT, force-remote-dns
+host-suffix, fbcdn.net, SNAPCHAT, force-remote-dns
+host-suffix, gmail.com, SNAPCHAT, force-remote-dns
+host-suffix, googleapis.com, SNAPCHAT, force-remote-dns
+host-suffix, instagram.com, SNAPCHAT, force-remote-dns
+host-suffix, scdn.co, SNAPCHAT, force-remote-dns
+host-suffix, t.co, SNAPCHAT, force-remote-dns
+host-suffix, twimg.com, SNAPCHAT, force-remote-dns
+host-suffix, twitpic.com, SNAPCHAT, force-remote-dns
+host-suffix, twitter.com, SNAPCHAT, force-remote-dns
+host-suffix, youtube-nocookie.com, SNAPCHAT
+host-suffix, youtube.com, SNAPCHAT, force-remote-dns
+host-keyword, googlevideo, SNAPCHAT
+host-keyword, google, SNAPCHAT, force-remote-dns
+# 定位相关
+host, ocsp.apple.com, reject
+user-agent, com.apple.geod*, direct
+user-agent, com.apple.Maps, direct
+user-agent, FindMyFriends*, direct
+user-agent, FindMyiPhone*, direct
+user-agent, FMDClient*, direct
+user-agent, FMFD*, direct
+user-agent, fmflocatord*, direct
+user-agent, geod*, direct
+user-agent, locationd*, direct
+user-agent, Maps*, direct
+# 支付相关
+user-agent, PassbookUIService*, direct
+user-agent, passd*, direct
+user-agent, seld*, direct
+user-agent, Wallet*, direct
+# Siri
+host, guzzoni.apple.com, direct
+user-agent, AssistantServices*, direct
+user-agent, MobileAsset*, direct
+user-agent, Siri*, direct
+user-agent, *siri*, direct
+host, p14-buy.itunes.apple.com, SNAPCHAT
+#HBO
+host-suffix, applovin.com, reject
+host-suffix, applvn.com, reject
+# > Google
+host-suffix, doubleclick.net, reject
+host-suffix, googleadservices.com, reject
+host-suffix, googleadsserving.cn, reject
+host-suffix, googlesyndication.com, reject
+host-suffix, googletagmanager.com, reject
+host-suffix, googletagservices.com, reject
+host, ads.youtube.com, reject
+# > Exclusions
+host, analytics.google.com, proxy
+host, analyticsinsights-pa.googleapis.com, proxy
+host, analyticsreporting.googleapis.com, proxy
+#host-suffix, 42trck.com, reject
+host-suffix, 51.la, reject
+host-suffix, adjust.com, reject
+host-suffix, adjust.io, reject
+host-suffix, admaster.com.cn, reject
+host-suffix, adsensor.org, reject
+host-suffix, adtarget.tech, reject
+host-suffix, adthor.com, reject
+host-suffix, amazon-adsystem.com, reject
+host-suffix, app-adforce.jp, reject
+host-suffix, appier.net, reject
+host-suffix, appsflyer.com, reject
+host-suffix, apsalar.com, reject
+host-suffix, apxadtracking.net, reject
+host-suffix, cloudmobi.net, reject
+host-suffix, cnzz.com, reject
+host-suffix, ctrmi.com, reject
+host-suffix, go2cloud.org, reject
+host-suffix, growingio.com, reject
+host-suffix, haloapps.com, reject
+host-suffix, irs01.com, reject
+host-suffix, iskyworker.com, reject
+host-suffix, kochava.com, reject
+host-suffix, lenzmx.com, reject
+host-suffix, lnk0.com, reject
+host-suffix, lnk8.cn, reject
+host-suffix, measurementapi.com, reject
+host-suffix, miaozhen.com, reject
+host-suffix, mopub.com, reject
+host-suffix, onelink.me, reject
+host-suffix, rayjump.com, reject
+host-suffix, scorecardresearch.com, reject
+host-suffix, sdkclick.com, reject
+host-suffix, smartadserver.com, reject
+host-suffix, smartnews-ads.com, reject
+host-suffix, tanv.com, reject
+host-suffix, tanx.com, reject
+host-suffix, uri6.com, reject
+host-suffix, xdrig.com, reject
+host-suffix, ad.daum.net, reject
+host-suffix, track.xiachufang.com, reject
+host-suffix, deliver.ifeng.com, reject
+host, abema-adx.ameba.jp, reject
+host, ad.caiyunapp.com, reject
+host, ad.huajiao.com, reject
+host, ad.hzyoka.com, reject
+host, ad.jiemian.com, reject
+host, ad.qingting.fm, reject
+host, ad.wappalyzer.com, reject
+host, ad-cn.jovcloud.com, reject
+host, ads.daydaycook.com.cn, reject
+host, ads.yahoo.com, reject
+host, adsapi.manhuaren.com, reject
+host, adsdk.dmzj.com, reject
+host, adui.tg.meitu.com, reject
+host, adx.hupu.com, reject
+host, adx-api.hupu.com, reject
+host, adxserver.ad.cmvideo.cn, reject
+host, app-ad.variflight.com, reject
+host, applog.mobike.com, reject
+host, appnext.hs.llnwd.net, reject
+host, appnext-a.akamaihd.net, reject
+host, ggs.myzaker.com, reject
+host, itad.linetv.tw, reject
+host, ja.chushou.tv, reject
+host, mads.suning.com, reject
+host, mopnativeadv.037201.com, reject
+host, nativeadv.dftoutiao.com, reject
+host, optimus-ads.amap.com, reject
+host, sugar.zhihu.com, reject
+host, track.tiara.daum.net, reject
+host, track.tiara.kakao.com, reject
+host, trackapp.guahao.cn, reject
+host, traffic.mogujie.com, reject
+host, wmlog.meituan.com, reject
