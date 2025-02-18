@@ -1,0 +1,153 @@
+#NVIDIA
+HOST,build.nvidia.com,GPT AI
+HOST,integrate.api.nvidia.com,GPT AI
+HOST,api.ngc.nvidia.com,GPT AI
+HOST,brand-assets.cne.ngc.nvidia.com,GPT AI
+HOST-SUFFIX,ngc.nvidia.com,GPT AI
+
+# Gemini 
+HOST,bard.google.com,GPT AI
+HOST,gemini.google.com,GPT AI
+HOST,alkalicore-pa.clients6.google.com,GPT AI
+HOST,alkalimakersuite-pa.clients6.google.com,GPT AI
+HOST,alkalimetricsink-pa.clients6.google.com,GPT AI
+HOST-SUFFIX,ai.google.dev,GPT AI
+HOST-SUFFIX,aistudio.google.com,GPT AI
+HOST-SUFFIX,labs.google,GPT AI
+HOST-SUFFIX,deepmind.com,GPT AI
+HOST-SUFFIX,deepmind.google,GPT AI
+HOST,generativelanguage.googleapis.com,GPT AI
+HOST-SUFFIX,generativelanguage.googleapis.com,GPT AI
+HOST-SUFFIX,geller-pa.googleapis.com,GPT AI
+HOST-SUFFIX,proactivebackend-pa.googleapis.com,GPT AI
+HOST-SUFFIX,makersuite.google.com,GPT AI
+HOST-SUFFIX,generativeai.google,GPT AI
+
+HOST,content-developerprofiles-pa.googleapis.com,GPT AI
+
+# OpenAI
+HOST,chat.com,GPT AI
+HOST,ios.chat.openai.com,GPT AI
+HOST,android.chat.openai.com,GPT AI
+HOST,desktop.chat.openai.com,GPT AI
+HOST-SUFFIX,openai.com,GPT AI
+HOST,operator.chatgpt.com,GPT AI
+HOST-SUFFIX,chatgpt.com,GPT AI
+HOST-SUFFIX,oaistatic.com,GPT AI
+HOST,files.oaiusercontent.com,GPT AI
+HOST-SUFFIX,oaiusercontent.com,GPT AI
+HOST-SUFFIX,identrust.com,GPT AI
+HOST,cdn.auth0.com,GPT AI
+HOST,challenges.cloudflare.com,GPT AI
+HOST,chat.openai.com.cdn.cloudflare.net,GPT AI
+HOST,openaiapi-site.azureedge.net,GPT AI
+HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,GPT AI
+HOST,openaicomproductionae4b.blob.core.windows.net,GPT AI
+HOST,production-openaicom-storage.azureedge.net,GPT AI
+# HOST,nexus-websocket-a.intercom.io,GPT AI
+HOST,openai-api.arkoselabs.com,GPT AI
+HOST,chatgpt.livekit.cloud,GPT AI
+# ChatGPT voice mode TCP 443 request
+HOST-SUFFIX,turn.livekit.cloud,GPT AI
+# ChatGPT voice mode UDP 3478 request 
+HOST-SUFFIX,host.livekit.cloud,GPT AI
+HOST,api.statsig.com,GPT AI
+HOST,browser-intake-datadoghq.com,GPT AI
+HOST,prodregistryv2.org,GPT AI
+HOST,featureassets.org,GPT AI
+# Sora
+HOST,www.sora.com,GPT AI
+HOST,sora-cdn.oaistatic.com,GPT AI
+HOST-SUFFIX,sora.com,GPT AI
+HOST,videos.openai.com,GPT AI
+
+HOST,openaicom.imgix.net,REJECT 
+HOST,o33249.ingest.sentry.io,REJECT
+HOST,o315582.ingest.sentry.io,REJECT
+HOST,o245571.ingest.sentry.io,REJECT
+
+
+# Claude Meta and poe
+HOST,cdn.usefathom.com,GPT AI
+HOST,api.anthropic.com,GPT AI
+HOST-SUFFIX,claude.ai,GPT AI
+HOST-SUFFIX,anthropic.com,GPT AI
+HOST,www.claudeusercontent.com,GPT AI
+HOST-SUFFIX,claudeusercontent.com,GPT AI
+HOST,api3.siftscience.com,GPT AI
+
+HOST,o1158394.ingest.us.sentry.io,REJECT
+HOST,o1158394.ingest.us.sentry.io,REJECT
+
+# aws bedrock
+HOST,bedrock.us-east-1.amazonaws.com,GPT AI
+HOST,bedrock.us-east-2.amazonaws.com,GPT AI
+HOST,bedrock.us-west-2.amazonaws.com,GPT AI
+HOST,bedrock-runtime.us-east-1.amazonaws.com,GPT AI
+HOST,bedrock-runtime.us-east-2.amazonaws.com,GPT AI
+HOST,bedrock-runtime.us-west-2.amazonaws.com,GPT AI
+HOST,bedrock-agent.us-east-1.amazonaws.com,GPT AI
+HOST,bedrock-agent.us-west-2.amazonaws.com,GPT AI
+HOST,bedrock-agent-runtime.us-east-1.amazonaws.com,GPT AI
+HOST,bedrock-agent-runtime.us-west-2.amazonaws.com,GPT AI
+
+# Perplexity
+HOST,fscdn.eppo.cloud,Outside
+HOST,www.perplexity.ai,GPT AI
+HOST,discover-audio.perplexity.ai,GPT AI
+HOST-SUFFIX,perplexity.ai,GPT AI
+HOST,pplx-res.cloudinary.com,GPT AI
+HOST,pplx-next-static-public.perplexity.ai,REJECT
+HOST-SUFFIX,poe.com,Outside
+HOST-SUFFIX,meta.ai,Outside
+
+# Mistral
+HOST,chat.mistral.ai,Outside
+HOST,auth.mistral.ai,Outside
+HOST,console.mistral.ai,Outside
+HOST-SUFFIX,mistral.ai,Outside
+
+# Jina
+HOST,segment.jina.ai,GPT AI
+HOST,api.jina.ai,GPT AI
+HOST,r.jina.ai,GPT AI
+HOST,s.jina.ai,GPT AI
+HOST,g.jina.ai,GPT AI
+HOST-SUFFIX,jina.ai,GPT AI
+
+# Cluster
+HOST,api.groq.com,GPT AI
+HOST,api.fireworks.ai,GPT AI
+HOST-SUFFIX,fireworks.ai,GPT AI
+HOST,api.together.xyz,GPT AI
+HOST-SUFFIX,together.ai,GPT AI
+HOST,api.replicate.com,GPT AI
+HOST,api.eu.nebius.cloud,GPT AI
+HOST-SUFFIX,nebius.cloud,GPT AI
+HOST-SUFFIX,nebius.com,GPT AI
+HOST-SUFFIX,nebius.ai,GPT AI
+HOST,api.hyperbolic.xyz,GPT AI
+HOST-SUFFIX,hyperbolic.xyz,GPT AI
+
+# Other LLMs
+HOST,x.ai,GPT AI
+HOST,ai.com,GPT AI
+HOST,ai.gitee.com,GPT AI
+HOST,kpu.maisa.ai,GPT AI
+HOST-SUFFIX,maisa.ai,GPT AI
+HOST-SUFFIX,dify.ai,GPT AI
+HOST-SUFFIX,arxiv.org,GPT AI
+
+HOST-SUFFIX,coze.com,Outside
+HOST-SUFFIX,ciciai.com,Outside
+HOST-SUFFIX,civitai.com,Outside
+HOST,api.fish.audio,Outside
+HOST-SUFFIX,fish.audio,Outside
+HOST,api.hf.space,Outside
+HOST,huggingface.co,Outside
+HOST,cdn-avatars.huggingface.co,Outside
+HOST-SUFFIX,edge.sdk.awswaf.com,Outside
+HOST,m-ric-agent-data-analyst.hf.space,Outside
+HOST-SUFFIX,token.awswaf.com,Outside
+# Hugging Face de5282c3ca0c
+HOST-KEYWORD,de5282c3ca0c,Outside
