@@ -1,0 +1,18 @@
+HOST-SUFFIX,mask.icloud.com
+HOST-SUFFIX,mask-canary.icloud.com
+HOST-SUFFIX,mask-h2.icloud.com
+HOST-SUFFIX,mask-api.icloud.com
+HOST-SUFFIX,mask.apple-dns.net
+HOST-SUFFIX,canary.mask.apple-dns.net
+HOST-WILDCARD,mask.icloud.com
+HOST-WILDCARD,mask-canary.icloud.com
+HOST-WILDCARD,recaptcha,DIRECT 
+HOST-WILDCARD,mask-h2.icloud.com
+HOST-WILDCARD,mask-api.icloud.com,PROXY
+HOST-WILDCARD,mask.apple-dns.net,PROXY
+HOST-WILDCARD,canary.mask.apple-dns.net
+HOST-SUFFIX,us
+HOST-WILDCARD,lens.l.google.com
+HOST-WILDCARD,voice.telephony.goog
+HOST-WILDCARD,voice.google.com
+HOST-WILDCARD, identity.ess.apple.com
