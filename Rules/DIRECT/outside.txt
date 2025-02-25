@@ -1,0 +1,67 @@
+# user agent 
+HOST-KEYWORD,notifications,DIRECT 
+USER-AGENT,*Telegram*,DIRECT
+USER-AGENT,*TikTok*,DIRECT
+USER-AGENT,*WhatsApp*,DIRECT
+host-SUFFIX,telega.one,PROXY 
+host-SUFFIX,telegra.ph,PROXY 
+user-agent, Spotify*, Spotify
+host-suffix, pscdn.co, Spotify
+host-suffix, scdn.co, Spotify
+host-suffix, spotify.com, Spotify
+host-suffix, spoti.fi, Spotify
+host-keyword, spotify.com, Spotify
+host-keyword, -spotify-com, Spotify
+HOST-SUFFIX,services.googleapis.com,GOOGLE
+# > Google
+HOST,dl.google.com,DIRECT
+HOST,mtalk.google.com,DIRECT
+#appstore 
+HOST-SUFFIX,mail.icloud.com,DIRECT 
+HOST-SUFFIX,mail.me.com,DIRECT 
+IP-ASN,54113,TESTFLIGHT 
+HOST-SUFFIX,api.mixpanel.com,REJECT 
+HOST-KEYWORD,.SA,DIRECT 
+host-keyword, sa., DIRECT 
+USER-AGENT,AppStore*,DIRECT 
+USER-AGENT,com.apple.appstored*,DIRECT 
+HOST,v1.mk,DIRECT
+HOST,sing-box.sagernet.org,DIRECT
+HOST,wiki.metacubex.one,DIRECT
+HOST,manual.nssurge.com,DIRECT
+HOST,community.nssurge.com,DIRECT
+HOST-SUFFIX,nssurge.com,DIRECT
+HOST-SUFFIX,v2ray.com,DIRECT
+HOST-SUFFIX,v2fly.org,DIRECT
+HOST-SUFFIX,hysteria.network,DIRECT
+HOST-SUFFIX,clash.wiki,DIRECT
+HOST,stash.wiki,DIRECT
+HOST,stash.ws,DIRECT
+HOST,getsurfboard.com,PROXY
+HOST,formulae.brew.sh,PROXY
+# > docker hub
+HOST,registry.hub.docker.com,DIRECT
+HOST,registry-1.docker.io,DIRECT
+HOST,index.docker.io,DIRECT
+HOST,auth.docker.io,DIRECT
+HOST,hub.docker.com,DIRECT
+HOST,docker.com,DIRECT
+# Local 
+HOST-SUFFIX,vercel.app,DIRECT
+HOST,api.raycast.app,DIRECT
+HOST,releases.raycast.com,DIRECT
+HOST,rbackend.raycast.com,DIRECT
+HOST-SUFFIX,raycast.com,DIRECT
+HOST,r3.o.lencr.org,DIRECT
+HOST,status.rapidssl.com,DIRECT
+HOST,proxsee.pscp.tv,DIRECT
+HOST,ocsp.pki.goog,DIRECT
+HOST,ocsp.digicert.com,DIRECT
+HOST-SUFFIX,amazontrust.com,DIRECT
+HOST,pypi.org,DIRECT
+HOST,kagi.com,DIRECT
+# > Duolingo
+USER-AGENT,Duolingo*,DIRECT
+HOST-KEYWORD,duolingo,DIRECT
+HOST-SUFFIX,duolingo.cn,DIRECT
+HOST-SUFFIX,duolingo.com,DIRECT
