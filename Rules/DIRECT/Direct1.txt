@@ -1,0 +1,105 @@
+# > Google Drive
+HOST-SUFFIX,m.inftab.com 
+HOST-WILDCARD,m.inftab.com 
+USER-AGENT,Google.Drive* 
+USER-AGENT,*com.google.Drive* 
+HOST-SUFFIX,docs.google.com 
+HOST-SUFFIX,drive.google.com 
+HOST-SUFFIX,googledrive.com 
+HOST-SUFFIX,sub-store.vercel.app
+# Stripe and IAP revenuecat
+HOST,js.stripe.com,Open AI  
+HOST,m.stripe.com,Open AI 
+HOST,r.stripe.com,Open AI 
+HOST,api.stripe.com,Open AI 
+HOST,m.stripe.network,Open AI 
+HOST,b.stripecdn.com,Open AI 
+HOST,merchant-ui-api.stripe.com,Open AI
+HOST,stripe-camo.global.ssl.fastly.net,Open AI
+HOST-SUFFIX,stripe.com,Open AI 
+HOST,hcaptcha.com,Open AI 
+HOST,api2.hcaptcha.com,Open AI 
+HOST-SUFFIX,hcaptcha.com,Open AI 
+HOST,api.revenuecat.com,Open AI 
+
+# youtube music 
+HOST,music.youtube.com
+USER-AGENT,*YouTubeMusic*
+USER-AGENT,*com.google.ios.youtubemusic*
+USER-AGENT,YouTubeMusic*
+USER-AGENT,com.google.ios.youtubemusic*
+# 内容：YouTube
+USER-AGENT,*youtube*
+USER-AGENT,YouTube*
+USER-AGENT,com.google.ios.youtube*
+## SMTP and IMAP 
+HOST-SUFFIX,smtp.gmail.com
+HOST-SUFFIX,smtp-mail.outlook.com
+HOST-SUFFIX,smtp.mail.yahoo.com
+HOST-SUFFIX,smtp.zoho.com
+HOST-SUFFIX,smtp.aol.com
+HOST-SUFFIX,smtp.protonmail.com
+HOST-SUFFIX,smtp.mail.com
+HOST-SUFFIX,smtp.yandex.com
+HOST-SUFFIX,smtp.fastmail.com
+HOST-SUFFIX,smtpout.secureserver.net
+HOST-SUFFIX,smtp.mail.me.com
+HOST-SUFFIX,mail.gandi.net
+HOST-SUFFIX,smtp.gmx.com
+HOST-SUFFIX,smtp.office365.com
+HOST-SUFFIX,smtp.mail.lycos.com
+HOST-SUFFIX,smtp.dreamhost.com
+HOST-SUFFIX,smtp.ionos.com
+HOST-SUFFIX,smtp.emailsrvr.com
+HOST-SUFFIX,smtp.hushmail.com
+HOST-SUFFIX,imap.gmail.com
+HOST-SUFFIX,imap-mail.outlook.com
+HOST-SUFFIX,imap.mail.yahoo.com
+HOST-SUFFIX,imap.zoho.com
+HOST-SUFFIX,imap.aol.com
+HOST-SUFFIX,imap.protonmail.com
+HOST-SUFFIX,imap.mail.com
+HOST-SUFFIX,imap.yandex.com
+HOST-SUFFIX,imap.fastmail.com
+HOST-SUFFIX,imap.secureserver.net
+HOST-SUFFIX,imap.mail.me.com
+HOST-SUFFIX,imap.gmx.com
+HOST-SUFFIX,outlook.office365.com
+HOST-SUFFIX,imap.mail.lycos.com
+HOST-SUFFIX,imap.dreamhost.com
+HOST-SUFFIX,imap.ionos.com
+HOST-SUFFIX,imap.emailsrvr.com
+HOST-SUFFIX,imap.hushmail.com
+# Perplexity
+HOST-SUFFIX,perplexity.ai
+HOST-SUFFIX,pplx.ai
+HOST-SUFFIX,perplexity.com
+HOST-SUFFIX,api.steampowered.com
+HOST-SUFFIX,graph.facebook.com
+HOST-SUFFIX,oneclient.sfx.ms
+# user agent 
+USER-AGENT,*com.google.Drive*
+USER-AGENT,Google.Drive*
+USER-AGENT,Line*
+USER-AGENT,Microsoft%20Remote%20Desktop*
+USER-AGENT,Pinterest*
+USER-AGENT,Roam*
+USER-AGENT,Slack*
+USER-AGENT,TikTok*
+USER-AGENT,WhatsApp*
+# always DIRECT 
+HOST,sub-store.vercel.app,DIRECT
+HOST-SUFFIX,drive.google.com,DIRECT
+HOST-SUFFIX,googledrive.com,DIRECT
+host-wildcard, *.sa,DIRECT 
+host-wildcard, *.cn, DIRECT 
+geoip,telegram,DIRECT 
+GEOIP,FACEBOOK,DIRECT 
+HOST-SUFFIX,m.inftab.com,DIRECT 
+HOST-WILDCARD,m.inftab.com,DIRECT 
+IP-ASN,21859,DIRECT //🇨🇳inftab
+geoip,whatsapp,DIRECT 
+GEOIP,FACEBOOK,DIRECT //geoip SITE
+GEOIP,TELEGRAM,DIRECT //geoip SITE
+GEOIP,TWITTER,DIRECT //geoip SITE
+GEOIP,FASTLY,DIRECT //geoip SITE
